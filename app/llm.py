@@ -9,4 +9,4 @@ def query_llm(prompt: str) -> str:
             "stream": False
         }
     )
-    return r.json()["response"]mport os
+    return r.json()["response"]
